@@ -15,7 +15,7 @@
 
 - <img width="1041" height="730" alt="image" src="https://github.com/user-attachments/assets/cbfdeff9-d2c5-48f9-8735-c7224263153a" />
 
-- 保留了接口，可以按键进行设计
+- 保留了接口，可以对按键进行设计
 
 ## 🛠️ 安装说明
 
@@ -30,4 +30,5 @@ git clone https://github.com/jiang-yi335776/QQ_simple.git
 ## 🚀 如何使用
 
 1.在Visual Studio打开本地解决方案，QtQQ.sln文件
+
 2.将Resources中的图片添加到CCMainWindow.qrc文件中
