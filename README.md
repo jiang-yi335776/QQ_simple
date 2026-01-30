@@ -68,13 +68,7 @@ QTableWidget: 用于显示在线用户列表的具体信息。
 
 这是实现即时通讯的核心。 QQ_Simple 项目采用 UDP进行广播和短消息发送，TCP 进行文件传输。(没有完全实现)
 
-QUdpSocket：
-
-用于实现局域网内的消息广播*。
-
-用于发送简短的聊天消息
-
-用于上线/下线通知（广播 Presence 信息）。
+QUdpSocket：用于实现局域网内的消息广播。用于发送简短的聊天消息，用于上线/下线通知（广播 Presence 信息）。
 
 QTcpServer & QTcpSocket:
 
@@ -92,7 +86,7 @@ QHostInfo & QNetworkInterface:
 
 用于读取和写入文件（在文件传输功能中）。
 
-可能用于保存和读取聊天记录。
+用于保存和读取聊天记录。
 
 **QFileDialog**:
 
